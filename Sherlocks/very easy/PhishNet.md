@@ -15,6 +15,6 @@ Look for the line that says: X-Originating-IP:
 
 <img width="257" height="25" alt="image" src="https://github.com/user-attachments/assets/94b58749-d5c2-4bd4-a7a2-1d9e973877f4" />
 
-**_answer: [45.67.89.10]_**
+**_answer: 45.67.89.10_**
 
 
