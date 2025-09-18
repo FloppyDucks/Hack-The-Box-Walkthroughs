@@ -8,7 +8,7 @@
 <img width="652" height="86" alt="image" src="https://github.com/user-attachments/assets/5139532c-90d5-43a7-aeb6-0d6e3cfbecd1" />
 
 **3)** I recommend opening the file with both a text editor like notepad/notepad++ (if on windows) OR nano/vi/pluma/etc. (if on linux) 
-<img width="610" height="185" alt="image" src="https://github.com/user-attachments/assets/48f34523-6f34-4fde-8bcc-a2f144707a9d" />
+<img width="610" height="185" alt="image" src="https://github.com/user-attachments/assets/f224adbd-c48c-4409-8b75-98e4891c8098" />
 
 **4)** Now that we have the email opened in a text editor we can complete the first task: "*What is the originating IP address of the sender?*" 
 Look for the line that says: X-Originating-IP: 
