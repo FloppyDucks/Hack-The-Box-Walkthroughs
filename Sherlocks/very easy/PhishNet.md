@@ -17,4 +17,8 @@ Look for the line that says: X-Originating-IP:
 
 **_answer: 45.67.89.10_**
 
+**5)** Next **_"Which mail server relayed this email before reaching the victim?"_**
+
+
+
 
