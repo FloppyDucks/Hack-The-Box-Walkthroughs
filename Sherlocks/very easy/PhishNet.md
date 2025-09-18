@@ -17,7 +17,9 @@ Look for the line that says: X-Originating-IP:
 
 **_answer: 45.67.89.10_**
 
-**5)** Next **_"Which mail server relayed this email before reaching the victim?"_** If we look in the file we will see 3 lines with 3 IP's Received: from mail.business-finance.com ([203.0.113.25]),Received: from relay.business-finance.com ([198.51.100.45]),Received: from finance@business-finance.com ([198.51.100.75])....So how do we know which one is the right one? well we can guess and check because HTB is forgiving with wrong answers, BUT if this were a test. OR if its an interview question/ real life Incident Response how would we know? the best way to determine is look at the last hop...aka the last IP in the chain. aka 10:15:10 was the last one sent, and the IP associated to that is 203.0.113.25 so...
+**5)** Next **_"Which mail server relayed this email before reaching the victim?"_** If we look in the file we will see 3 lines with 3 IP's 
+<img width="485" height="158" alt="image" src="https://github.com/user-attachments/assets/af59a7ca-8758-41f9-a106-9eca2bf88714" />
+....So how do we know which one is the right one? well we can guess and check because HTB is forgiving with wrong answers, BUT if this were a test. OR if its an interview question/ real life Incident Response how would we know? the best way to determine is look at the last hop...aka the last IP in the chain. aka 10:15:10 was the last one sent, and the IP associated to that is 203.0.113.25 so...
 
 **_answer: 203.0.113.25_**
 
