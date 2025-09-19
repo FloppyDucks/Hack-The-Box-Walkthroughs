@@ -38,10 +38,10 @@ Look for the line that says: X-Originating-IP:
  How SPF results are reported?
 
 Common SPF results:
-
-| Pass	| The email came from an IP allowed by the domain’s SPF record | Legitimate |
--------|--------------------------------------------------------------|------------|
-| Fail	| The email came from an IP not listed in the domain’s SPF record Likely | spoofed |
+|Result| Meaning                                                                 |
+-------|-------------------------------------------------------------------------|
+| Pass	| The email came from an IP allowed by the domain’s SPF record Legitimate |
+| Fail	| The email came from an IP not listed in the domain’s SPF record Likely spoofed |
 | SoftFail | IP not listed but not outright rejected |
 | Neutral | No specific policy cannot verify |
 | None | Domain has no SPF record |
