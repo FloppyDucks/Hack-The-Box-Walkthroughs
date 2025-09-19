@@ -56,6 +56,10 @@ so for our case we need to look for SPF in the file, and we can see it says Pass
 
 <img width="939" height="22" alt="image" src="https://github.com/user-attachments/assets/22eee76d-80a8-4752-88c0-97c1ec144b26" />
 
+so the answer is secure.business-finance.com...why not the parent domain business-finance.com...because its asking what is the domain of the phishing email, and as we see above we are getting the link from secure.business-finance.com NOT just business-finance.com....Hence the phishing domain is secure.business-finance.com
+
+**_answer: secure.business-finance.com_**
+
 
 
 
