@@ -40,13 +40,10 @@ Look for the line that says: X-Originating-IP:
 Common SPF results:
 
 | Pass	| The email came from an IP allowed by the domain’s SPF record | Legitimate |
-------------------------------------------------------------------------------------
-| Fail	| The email came from an IP not listed in the domain’s SPF record Likely | spoofed|
-----------------------------------------------------------------------------------------
+-------|--------------------------------------------------------------|------------|
+| Fail	| The email came from an IP not listed in the domain’s SPF record Likely | spoofed |
 | SoftFail | IP not listed but not outright rejected |
-------------------------------------------------------
-| Neutral | No specific policy cannot verify|
----------------------------------------------
+| Neutral | No specific policy cannot verify |
 | None | Domain has no SPF record |
 
 so for our case we need to look for SPF in the file, and we can see it says Pass
