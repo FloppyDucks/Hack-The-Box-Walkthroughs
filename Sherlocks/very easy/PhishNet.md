@@ -60,16 +60,25 @@ so the answer is secure.business-finance.com...why not the parent domain busines
 
 **_answer: secure.business-finance.com_**
 
-10) **_What is the fake company name used in the email?_** There are a few ways to do this, I found it easier to find the answer if you open the email in an email viewer instead of notepad...I will be using **_Mozilla thunderbird_** because I dont need to sign into outlook...and fuck outlook...BUT you can use any preferred email viewer
+**10)** **_What is the fake company name used in the email?_** There are a few ways to do this, I found it easier to find the answer if you open the email in an email viewer instead of notepad...I will be using **_Mozilla thunderbird_** because I dont need to sign into outlook...and fuck outlook...BUT you can use any preferred email viewer
 <img width="1358" height="678" alt="image" src="https://github.com/user-attachments/assets/22e39e46-e778-4c51-a293-ec39ce4692f5" />
 
 At the bottom we will see Buisness Finance Ltd. AND that is our answer...nice and easy
 
 **_answer: Business Finance Ltd._**
 
+**11)** **_What is the name of the attachment included in the email?_** We can complete this either way, if you are already looking at the email viewer look for the attachment name and there is your answer...IF you are doing text file only then scroll to the bottom of the file and look for filename. We will see the name of "Invoice_2025_Payment.zip" 
 
+**_answer: Invoice_2025_Payment.zip_**
 
+**12)** **_What is the SHA-256 hash of the attachment?_** To get the sha-256 Download the file Invoice_2025_Payment.zip by downloading the zip file by viewing the email via some email viewer/ email client. Again im using **_Mozilla thunderbird_**, but you can use whatever. Once you have the file downloaded open up the command line interface either powershell if you are on windows, OR terminal on linux. If you are on windows go to the directory where you downloaded the .zip file and run **_Get-FileHash Invoice_2025_Payment.zip_**
+IF you are on linux, similar deal, go to the directory where you downloaded it. and run **_sha256sum Invoice_2025_Payment.zip_**...Either way you should get the same answer
 
+<img width="740" height="66" alt="image" src="https://github.com/user-attachments/assets/e476359d-5382-4079-a467-bd87b71a5f36" />
+
+<img width="827" height="47" alt="image" src="https://github.com/user-attachments/assets/3b9150d7-15f2-4892-a453-3716ec8589a8" />
+
+**_answer: 8379C41239E9AF845B2AB6C27A7509AE8804D7D73E455C800A551B22BA25BB4A_**
 
 
 
