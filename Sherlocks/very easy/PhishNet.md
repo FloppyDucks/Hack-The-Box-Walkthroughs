@@ -52,7 +52,9 @@ so for our case we need to look for SPF in the file, and we can see it says Pass
 **_answer: Pass_**
 
 **9)** **_What is the domain used in the phishing URL inside the email?_** For this we need to look for a link, not an email address, but an https://.... and if we do a search for https. Low and Behold we get 1 instance
-<p><a href="https://secure.business-finance.com/invoice/details/view/INV2025-0987/payment">Download Invoice</a></p>
+
+<img width="939" height="22" alt="image" src="https://github.com/user-attachments/assets/22eee76d-80a8-4752-88c0-97c1ec144b26" />
+
 
 
 
