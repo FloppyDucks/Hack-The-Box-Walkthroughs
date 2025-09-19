@@ -80,6 +80,15 @@ IF you are on linux, similar deal, go to the directory where you downloaded it. 
 
 **_answer: 8379C41239E9AF845B2AB6C27A7509AE8804D7D73E455C800A551B22BA25BB4A_**
 
+**13)** **_What is the filename of the malicious file contained within the ZIP attachment?_** This was the hardest one...for me. If you try and unzip the file on windows you will get this error:
 
+<img width="612" height="450" alt="image" src="https://github.com/user-attachments/assets/288dc2c3-89a9-4086-8d32-1111ada81d08" />
+
+If you try doing it via CLI it will tell you the .zip file isnt actually a zip archive which is a hint! and odd. 
+<img width="846" height="194" alt="image" src="https://github.com/user-attachments/assets/759616a3-2d93-4e4c-a232-9baf1c778b34" />
+
+Because if you check the file type it says zip archive
+
+<img width="875" height="48" alt="image" src="https://github.com/user-attachments/assets/4d63a83a-56ea-4336-99f1-ccf1d8cf625a" />
 
 
