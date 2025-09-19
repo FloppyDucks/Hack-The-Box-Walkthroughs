@@ -85,7 +85,7 @@ IF you are on linux, similar deal, go to the directory where you downloaded it. 
 <img width="612" height="450" alt="image" src="https://github.com/user-attachments/assets/288dc2c3-89a9-4086-8d32-1111ada81d08" />
 
 If you try doing it via CLI it will tell you the .zip file isnt actually a zip archive which is a hint! and odd. 
-<img width="846" height="194" alt="image" src="https://github.com/user-attachments/assets/759616a3-2d93-4e4c-a232-9baf1c778b34" />
+<img width="844" height="179" alt="image" src="https://github.com/user-attachments/assets/65846c19-5248-4636-b6bd-5bbc9ed33ff9" />
 
 Because if you check the file type it says zip archive
 
