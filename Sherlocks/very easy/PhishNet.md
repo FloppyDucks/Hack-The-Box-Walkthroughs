@@ -25,8 +25,9 @@ Look for the line that says: X-Originating-IP:
 
 **6)** **_What is the sender's email address?_** This one is nice and easy, we look at the very first line, and there is your answer
 <img width="360" height="25" alt="image" src="https://github.com/user-attachments/assets/b7c82327-247c-4b3f-be59-8c4ce4a8bb7c" />
-**_asnwer: finance@business-finance.com_**
 
-7)
+**_answer: finance@business-finance.com_**
+
+**7)**
 
 
