@@ -100,3 +100,7 @@ So lets run a hexdump (on linux) **_hexdump -C Invoice_2025_Payment.zip_** OR of
 As we can see there is a file in the hexdump... 
 
 **_answer: invoice_document.pdf.bat_**
+
+**14)** **_Which MITRE ATT&CK techniques are associated with this attack?_** For this we can use google or ChatGPT....same with the rest, but this is easy to find online Phishing: Spearphishing Attachment
+
+**_answer: T1566.001_**
