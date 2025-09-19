@@ -91,4 +91,12 @@ Because if you check the file type it says zip archive
 
 <img width="875" height="48" alt="image" src="https://github.com/user-attachments/assets/4d63a83a-56ea-4336-99f1-ccf1d8cf625a" />
 
+So lets run a hexdump (on linux) **_hexdump -C Invoice_2025_Payment.zip_** OR of you are on windows **_Format-Hex .\Invoice_2025_Payment.zip | Select-Object -First 16_**
 
+<img width="699" height="149" alt="image" src="https://github.com/user-attachments/assets/728853ab-55ce-4fd7-b951-c094ea1bf160" />
+
+<img width="716" height="133" alt="image" src="https://github.com/user-attachments/assets/88cd3e53-3c0d-4de6-8a01-1cd9a941ca19" />
+
+As we can see there is a file in the hexdump... 
+
+**_answer: invoice_document.pdf.bat_**
