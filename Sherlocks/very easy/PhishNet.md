@@ -60,6 +60,8 @@ so the answer is secure.business-finance.com...why not the parent domain busines
 
 **_answer: secure.business-finance.com_**
 
+10) **_What is the fake company name used in the email?_** There are a few ways to do this, I found it easier to find the answer if you open the email in an email viewer instead of notepad...I will be using **_Mozilla thunderbird_** because I dont need to sign into outlook...and fuck outlook...
+<img width="1358" height="678" alt="image" src="https://github.com/user-attachments/assets/22e39e46-e778-4c51-a293-ec39ce4692f5" />
 
 
 
