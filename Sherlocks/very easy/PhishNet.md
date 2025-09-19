@@ -25,9 +25,39 @@ Look for the line that says: X-Originating-IP:
 
 **6)** **_What is the sender's email address?_** This one is nice and easy, we look at the very first line, and there is your answer
 <img width="360" height="25" alt="image" src="https://github.com/user-attachments/assets/b7c82327-247c-4b3f-be59-8c4ce4a8bb7c" />
+...but why not the Reply-To? that is because it is only used when you hit reply in an email. the Return-Path is the true sender of the email. If it cannot find where the email should go, that is where it will be bounced to. Hence we use the Return-Path email
 
 **_answer: finance@business-finance.com_**
 
-**7)**
+**7)** **_What is the 'Reply-To' email address specified in the email?_** This is another easy one, its the second line...it pretty much gives you the answer.
+
+**_answer: support@business-finance.com_**
+
+**8)** **_What is the SPF (Sender Policy Framework) result for this email?_** 
+
+ How SPF results are reported?
+
+Common SPF results:
+
+Pass	  The email came from an IP allowed by the domain’s SPF record. Legitimate.
+Fail	  The email came from an IP not listed in the domain’s SPF record. Likely spoofed.
+SoftFail	  IP not listed, but not outright rejected.
+Neutral  	No specific policy, cannot verify.
+None  	Domain has no SPF record.
+
+so for our case we need to look for SPF in the file, and we can see it says Pass
+
+<img width="949" height="22" alt="image" src="https://github.com/user-attachments/assets/805bc95b-6ed4-4e91-ac3e-e002df51a42b" />
+
+**_answer: Pass_**
+
+**9)** **_What is the domain used in the phishing URL inside the email?_** For this we need to look for a link, not an email address, but an https://.... and if we do a search for https. Low and Behold we get 1 instance
+<p><a href="https://secure.business-finance.com/invoice/details/view/INV2025-0987/payment">Download Invoice</a></p>
+
+
+
+
+
+
 
 
